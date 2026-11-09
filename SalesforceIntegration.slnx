@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Integration.Application/Integration.Application.csproj" />
+    <Project Path="src/Integration.Domain/Integration.Domain.csproj" />
+    <Project Path="src/Integration.Infrastructure/Integration.Infrastructure.csproj" />
+    <Project Path="src/Integration.Worker/Integration.Worker.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Integration.UnitTests/Integration.UnitTests.csproj" />
+  </Folder>
+</Solution>

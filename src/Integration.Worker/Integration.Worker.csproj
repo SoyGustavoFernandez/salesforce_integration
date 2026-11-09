@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <UserSecretsId>dotnet-Integration.Worker-5e07af23-ffd7-4d33-88ec-11c22831942a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Integration.Application\Integration.Application.csproj" />
+    <ProjectReference Include="..\Integration.Infrastructure\Integration.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
